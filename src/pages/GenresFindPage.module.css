@@ -20,7 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .GenreName {
@@ -113,6 +113,10 @@
 
     .textTitle {
         font-size: 14px;
+    }
+
+    .ButtonPage {
+        padding-bottom: 10%;
     }
 }
 
