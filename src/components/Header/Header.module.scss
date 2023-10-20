@@ -1,0 +1,249 @@
+.HeaderMain {
+  //width: 100vw;
+}
+
+.headerBar {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //background-image: url("https://klike.net/uploads/posts/2022-10/1666928437_3-3.jpg");
+  //background-image: url("https://img.freepik.com/free-vector/film-strip-background-with-focus-lights_1017-31190.jpg");
+  background-image: url("https://charlestoncorporatehousing.com/wp-content/uploads/2019/12/cch_FilmProductionHousing-1110x550.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-color: #00ff2c;
+  background-blend-mode: darken;
+}
+
+.button {
+  //display: block;
+  text-decoration: none;
+  font-size: 30px;
+  color: snow;
+  margin: 0 1% 0 1%;
+  padding: 0;
+}
+
+.button1 {
+  text-align: center;
+  width: 115px;
+  color: snow;
+  cursor: pointer;
+  font-size: 30px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  transition: 0.1s;
+}
+
+.button1:hover {
+  padding: 0;
+  color: #ffd700;
+  //border: 1px solid #ffd700;
+  transition: 0.1s;
+}
+
+.button:hover {
+  color: #ffd700;
+}
+
+.themeSwitcher {
+  position: absolute;
+  width: 120px;
+  height: 10px;
+  top: 50%;
+  right: 75px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.switch {
+}
+
+.titleClass {
+  position: absolute;
+  left: 2vw;
+  cursor: pointer;
+}
+
+.titleH1 {
+  color: snow;
+}
+
+.titleH1:hover {
+  color: #ffd700;
+  border-bottom: 1px solid #ffd700;
+}
+
+.titleTheme {
+  color: #ffd700;
+  font-size: 12px;
+}
+
+.logoUser {
+  position: absolute;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageUser {
+  display: block;
+  height: 50px;
+}
+
+.userTitle {
+  display: block;
+  margin: 5px 0 0 0;
+  padding: 0;
+  font-size: 12px;
+  color: var(--accent-light);
+}
+
+
+@media screen and (max-width: 820px) {
+  .headerBar {
+    height: 50px;
+  }
+  .button {
+    font-size: 16px;
+    margin: 0 10px 0 10px;
+    padding: 0;
+  }
+
+  .button1 {
+    font-size: 16px;
+    margin: 0 0 0 10px;
+    width: 45px;
+    padding: 0;
+  }
+
+  .titleClass {
+    position: absolute;
+    left: 10px;
+    top: 10%;
+    font-size: 12px;
+  }
+  .titleH1 {
+    font-size: 12px;
+  }
+  .themeSwitcher {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    top: 50%;
+    left: 5px;
+    padding: 0;
+    margin: 0;
+    //border: 1px solid gold;
+
+  }
+
+  .logoUser {
+    right: 15px;
+  }
+
+  .titleTheme {
+    font-size: 8px;
+  }
+
+
+  .imageUser {
+    height: 20px;
+  }
+
+  .userTitle {
+    font-size: 8px;
+    margin: 2px 0 0 0;
+  }
+
+}
+
+
+@media screen and (max-width: 420px) {
+
+  .titleTheme {
+    font-size: 7px;
+    position: relative;
+    left: -3px;
+  }
+  .userTitle {
+    font-size: 8px;
+    margin: 2px 0 0 0;
+  }
+
+  #buttonFirst{
+    margin-left: 8%;
+  }
+
+  .button1 {
+    font-size: 16px;
+    width: 45px;
+  }
+
+}
+
+@media screen and (max-width: 370px) {
+  #buttonFirst{
+    margin-left: 8%;
+  }
+}
+
+
+
+@media screen and (max-width: 344px) {
+  .titleH1 {
+    font-size: 11px;
+  }
+  .button {
+    margin: 0 4px 0 4px;
+    font-size: 14px;
+  }
+  #buttonFirst{
+    margin-left: 10%;
+  }
+
+  .button1 {
+    font-size: 14px;
+    margin-left: 4px;
+  }
+
+  .userTitle {
+    font-size: 8px;
+    margin: 2px 0 0 0;
+  }
+
+}
+@media screen and (max-width: 286px) {
+  .headerBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button{
+    font-size: 12px;
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+
+  #buttonFirst{
+    margin-left: 0;
+    margin-top: 4px;
+    font-size: 12px;
+  }
+  .button1{
+    font-size: 12px;
+    margin: 0 0 4px 0;
+    padding: 0;
+  }
+
+}

@@ -1,0 +1,29 @@
+
+
+.black{
+    background-color:  var(--bg-dark);
+    color:var(--accent-light);
+}
+
+.white{
+    background-color: var(--bg-light);
+    color: var(--accent-dark);
+}
+
+.MainPage{
+    /*width: 100vw;*/
+
+    margin: 0;
+    padding: 0;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    /*overflow-x: hidden;*/
+
+
+}
+
+@media screen and (max-width: 820px) {
+
+}

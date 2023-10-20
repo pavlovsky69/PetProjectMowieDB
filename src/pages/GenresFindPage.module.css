@@ -1,0 +1,128 @@
+.MovieListHead {
+    margin: 15px 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MoviesCard {
+    width: 92%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ButtonPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+.GenreName {
+    margin: 0;
+}
+
+.TextGenreTitle {
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+.textTitle {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.ButtonPlus{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 30px;
+    background-color: #ffd700;
+    border: 1px solid rgba(0, 250, 44);;
+    cursor: pointer;
+    color: var(--accent-dark);
+}
+
+.ButtonMinus{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-right: 30px;
+    background-color: #ffd700;
+    border: 1px solid rgba(0, 250, 44);
+    cursor: pointer;
+    color: var(--accent-dark);
+}
+
+.ButtonPlus:disabled{
+    background-color: #5a5a5a;
+    border: none;
+}
+
+.ButtonPlus:hover{
+    background-color: rgba(0, 250, 44);
+    border: 1px solid snow;
+    color: snow;
+}
+
+.ButtonMinus:hover{
+    background-color: rgba(0, 250, 44);
+    border: 1px solid snow;
+    color: snow;
+}
+
+.ButtonMinus:not([hover]):disabled{
+    background-color: #5a5a5a;
+    border: none;
+    color: var(--accent-dark);
+    cursor: auto;
+}
+
+.ButtonPlus:not([hover]):disabled{
+    background-color: #5a5a5a;
+    border: none;
+    color: var(--accent-dark);
+    cursor: auto;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 820px) {
+    .ButtonPlus{
+        width: 105px;
+        height: 30px;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .ButtonMinus{
+        width: 105px;
+        height: 30px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .textTitle {
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (max-width: 456px) {
+    .MoviesCard {
+        width: 100%;}
+
+    .textTitle {
+        font-size: 12px;
+    }
+}

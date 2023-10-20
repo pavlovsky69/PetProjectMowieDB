@@ -1,0 +1,22 @@
+.BigGenreBox{
+    height: auto;
+}
+
+.GenresContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.GenresListBlock {
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}

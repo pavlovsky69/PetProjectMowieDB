@@ -1,0 +1,66 @@
+
+.MainGenreBlock {
+    width: 19%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.GenreTitleBlock {
+}
+
+.TitleGenre {
+    text-align: center;
+}
+
+.MainGenreBlock:hover {
+    transition: 0.2s;
+    background-color: #464646;
+    border: 1px solid #ffd700;
+    padding: 0;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 980px) {
+    /*.MainGenreBlock {*/
+    /*    width: 15%;*/
+    /*}*/
+
+    .TitleGenre {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .MainGenreBlock {
+        width: 24%;
+        /*height: 100px;*/
+    }
+}
+
+
+
+@media screen and (max-width: 556px) {
+    .TitleGenre {
+        font-size: 14px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 456px) {
+
+    .MainGenreBlock {
+        width: 33%;
+        height: 100px;
+    }
+}
+
+
